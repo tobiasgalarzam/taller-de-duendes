@@ -1,0 +1,24 @@
+# Obsidian: estado de la ventana, cambia todo el tiempo
+cerebro/.obsidian/workspace*.json
+cerebro/.obsidian/cache
+cerebro/.trash/
+
+# El contenido del cerebro es personal (notas, facultad, búsqueda laboral):
+# se publica solo la estructura de carpetas y las plantillas.
+cerebro/**
+!cerebro/**/
+!cerebro/**/.gitkeep
+!cerebro/Plantillas/**
+!cerebro/.obsidian/app.json
+!cerebro/.obsidian/appearance.json
+!cerebro/.obsidian/core-plugins.json
+!cerebro/.obsidian/graph.json
+
+# Código de terceros: se instala aparte, no es parte de este repo
+skills/impeccable/
+descargas/*
+!descargas/README.md
+
+# Python
+__pycache__/
+*.pyc
